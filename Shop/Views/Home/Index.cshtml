@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<app asp-prerender-module="ClientApp/dist/main-server">Loading...</app>
+
+<script src="~/dist/vendor.js" asp-append-version="true"></script>
+@section scripts {
+    <script src="~/dist/main-client.js" asp-append-version="true"></script>
+    
+     <link rel="stylesheet" href="~/dist/stylesheets/main.css" asp-append-version="true"/>
+     <link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />
+     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,700,800,400,600' rel='stylesheet' type='text/css'>
+      <script type="text/javascript" src="~/js/jquery.min.js"></script>
+     <script type="text/javascript" src="~/js/parallax.js"></script>
+    <script type="text/javascript" src="~/js/common.js"></script>
+    <script type="text/javascript" src="~/js/revslider.js"></script>
+    <script type="text/javascript" src="~/js/owl.carousel.min.js"></script>
+   
+<link rel="stylesheet" href="~/css/animate.css" type="text/css">
+<link rel="stylesheet" href="~/css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="~/css/style.css" type="text/css">
+<link rel="stylesheet" href="~/css/revslider.css" type="text/css">
+<link rel="stylesheet" href="~/css/owl.carousel.css" type="text/css">
+<link rel="stylesheet" href="~/css/owl.theme.css" type="text/css">
+<link rel="stylesheet" href="~/css/font-awesome.css" type="text/css">
+}

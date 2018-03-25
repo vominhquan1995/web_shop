@@ -1,0 +1,1 @@
+-them jquery and bootrap config on webpack.config.vender.js

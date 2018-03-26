@@ -15,14 +15,10 @@ const treeShakableModules = [
     'zone.js',
 ];
 const nonTreeShakableModules = [
-    'bootstrap',
-    'bootstrap/dist/css/bootstrap.css',
     'es6-promise',
     'es6-shim',
     'event-source-polyfill',
-    'jquery',
-    'font-awesome/css/font-awesome.css',
-    'bootstrap/dist/js/bootstrap.js'
+    'jquery'
 ];
 const allModules = treeShakableModules.concat(nonTreeShakableModules);
 module.exports = (env) => {

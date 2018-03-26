@@ -1,27 +1,37 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-
 <app asp-prerender-module="ClientApp/dist/main-server">Loading...</app>
-
-<script src="~/dist/vendor.js" asp-append-version="true"></script>
-@section scripts {
-    <script src="~/dist/main-client.js" asp-append-version="true"></script>
-    
-     <link rel="stylesheet" href="~/dist/stylesheets/main.css" asp-append-version="true"/>
-     <link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />
-     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,700,800,400,600' rel='stylesheet' type='text/css'>
-      <script type="text/javascript" src="~/js/jquery.min.js"></script>
-     <script type="text/javascript" src="~/js/parallax.js"></script>
-    <script type="text/javascript" src="~/js/common.js"></script>
-    <script type="text/javascript" src="~/js/revslider.js"></script>
-    <script type="text/javascript" src="~/js/owl.carousel.min.js"></script>
-   
-<link rel="stylesheet" href="~/css/animate.css" type="text/css">
-<link rel="stylesheet" href="~/css/bootstrap.min.css" type="text/css">
-<link rel="stylesheet" href="~/css/style.css" type="text/css">
-<link rel="stylesheet" href="~/css/revslider.css" type="text/css">
-<link rel="stylesheet" href="~/css/owl.carousel.css" type="text/css">
-<link rel="stylesheet" href="~/css/owl.theme.css" type="text/css">
-<link rel="stylesheet" href="~/css/font-awesome.css" type="text/css">
+@section css {
+    <link rel="stylesheet" href="~/css/font-awesome.min.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/ion.rangeSlider.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/ion.rangeSlider.skinFlat.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/jquery.bxslider.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/jquery.fancybox.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/flexslider.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/swiper.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/swiper.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/media.css" asp-append-version="true">
 }
+@section scripts {
+    <script src="~/js/jquery-1.11.2.min.js" asp-append-version="true"></script>
+    <script src="~/js/jquery.bxslider.min.js" asp-append-version="true"></script>
+    <script src="~/js/fancybox/fancybox.js" asp-append-version="true"></script>
+    <script src="~/js/fancybox/helpers/jquery.fancybox-thumbs.js" asp-append-version="true"></script>
+    <script src="~/js/jquery.flexslider-min.js" asp-append-version="true"></script>
+    <script src="~/js/swiper.jquery.min.js" asp-append-version="true"></script>
+    <script src="~/js/jquery.waypoints.min.js" asp-append-version="true"></script>
+    <script src="~/js/progressbar.min.js" asp-append-version="true"></script>
+    <script src="~/js/ion.rangeSlider.min.js" asp-append-version="true"></script>
+    <script src="~/js/chosen.jquery.min.js" asp-append-version="true"></script>
+    <script src="~/js/jQuery.Brazzers-Carousel.js" asp-append-version="true"></script>
+    <script src="~/js/plugins.js" asp-append-version="true"></script>
+    <script src="~/js/main.js" asp-append-version="true"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhAYvx0GmLyN5hlf6Uv_e9pPvUT3YpozE" asp-append-version="true"></script>
+    <script src="~/js/gmap.js" asp-append-version="true"></script>
+    <script src="~/dist/vendor.js" asp-append-version="true"></script>
+    <script src="~/dist/main-client.js" asp-append-version="true"></script>
+}
+

@@ -7,3 +7,6 @@ npm i font-awesome
 
 //rebuild vender.css
 webpack --config webpack.config.vendor.js
+
+
+npm install bootstrap@3.3.7 --save --> install bootstrap version 3.3.7

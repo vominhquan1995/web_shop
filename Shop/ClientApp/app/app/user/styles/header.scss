@@ -77,12 +77,13 @@
 /*----------------------------------
  Middle Header
 ----------------------------------*/
-.header-middle {
-	padding: 25px 0;
-	text-align: justify;
+.vertical-align {
+    display: flex;
+	align-items: center;
 }
-.middle{
-	vertical-align: middle;
+.header-middle {
+	padding: $nav-padding;
+	text-align: justify;
 }
 .header-middle .header-middle-cont {
 	font-size: 0;

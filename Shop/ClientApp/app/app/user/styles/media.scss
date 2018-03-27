@@ -210,7 +210,116 @@
     }
     /* Auth */
 }
+@media only screen and (max-width : 1200px) {
+    /* Container */
+    .cont {
+        width: 970px;
+    }
+    /* Container */
 
+    /* Header */
+    .toplogo img {
+        // max-width: 280px;
+        max-width: -webkit-fill-available;
+    }
+    /* Header */
+
+    /* Catalog */
+    .section-cont .section-items .prod-i-img {
+        height: 200px;
+    }
+    .prod-items .prodlist-i {
+        padding-left: 190px;
+    }
+    .prod-items .prodlist-i-img {
+        width: 170px;
+        left: 10px;
+    }
+    /* Catalog */
+
+    /* Product */
+    .prod-wrap {
+        width: 76%;
+        padding: 0 30px 50px 0;
+    }
+    .prod-related {
+        width: 24%;
+    }
+    /* Product */
+
+    /* Product V2 */
+    .prod2-wrap {
+        width: auto;
+        padding: 0 0 50px 0;
+    }
+    .prod2-wrap .prod-tabs li a,
+    .prod2-wrap .prod-tabs li a.active {
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+    .prod2-related {
+        width: auto;
+    }
+    /* Product V2 */
+
+    /* Cart */
+    .cart-items-wrap .cart-items .cart-image {
+        width: 100px;
+    }
+    .cart-items-wrap .cart-items .cart-price,
+    .cart-items-wrap .cart-items .cart-summ {
+        width: 100px;
+    }
+    .cart-items-wrap .cart-items .cart-quantity {
+        width: 100px;
+    }
+    /* Cart */
+
+    /* Blog Post */
+    .post-wrap {
+        width: 76%;
+        padding: 0 30px 50px 0;
+    }
+    /* Blog Post */
+
+    /* Team */
+    .team-i .team-i-img {
+        height: 228px;
+    }
+    /* Team */
+
+    /* Footer */
+    .f-block .iframe-img {
+        height: 48px;
+    }
+    .f-block .overlay-icon {
+        height: 48px;
+    }
+    .f-delivery {
+        margin-top: 21px;
+    }
+    /* Footer */
+
+    /* Auth */
+    .auth-wrap .auth-col h2 {
+        margin: 0 0 25px 24%;
+    }
+    .auth-wrap .auth-col label {
+        width: 24%;
+    }
+    .auth-wrap .auth-col input[type=email],
+    .auth-wrap .auth-col input[type=password],
+    .auth-wrap .auth-col input[type=text] {
+        width: 76%;
+    }
+    .auth-wrap .auth-col input[type=submit] {
+        margin: 0 0 0 24%;
+    }
+    .auth-wrap .auth-col .auth-lost_password {
+        padding: 0 0 0 24%;
+    }
+    /* Auth */
+}
 
 @media only screen and (max-width : 992px) {
     .cont {
@@ -504,8 +613,14 @@
     .cont {
         width: auto;
     }
-
+    .vertical-align {
+        align-items: center;
+        display: contents;
+    }
     /* Header */
+    .toplogo {
+        display: none;
+    }
     .topmenu {
         padding: 0px 155px 0 0;
     }
@@ -1005,6 +1120,9 @@
         text-align: center;
         float: none;
     }
+    .toplogo {
+        display: none;
+    }
     /* Header */
 
     /* Blog Posts */
@@ -1147,7 +1265,9 @@
 }
 
 @media only screen and (max-width : 600px) {
-
+    .toplogo {
+        display: none;
+    }
     /* Product */
     .prod-related .prod-rel {
         margin: 0 auto 25px;
@@ -1208,7 +1328,9 @@
 
 
 @media only screen and (max-width : 550px) {
-
+    .toplogo {
+        display: none;
+    }
     /* Banners */
     .banners-list .banner-i.style_11,
     .banners-list .banner-i.style_12 {
@@ -1396,6 +1518,9 @@
     }
 
     /* Header */
+    .toplogo {
+        display: none;
+    }
     .topmenu .mainmenu {
         right: 39px;
     }
@@ -1523,7 +1648,10 @@
 
 
 @media only screen and (max-width : 380px) {
-
+    //hide logo on mobile
+    .toplogo {
+        display: none;
+    }
     /* Modal Form */
     .modalform {
         width: 275px;
